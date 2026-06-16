@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+
+  .metric-card {
+    @apply card hover:shadow-md transition-shadow cursor-pointer;
+  }
+
+  .badge {
+    @apply px-3 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .badge-danger {
+    @apply badge bg-danger-100 text-danger-700;
+  }
+
+  .badge-warning {
+    @apply badge bg-warning-100 text-warning-700;
+  }
+
+  .badge-success {
+    @apply badge bg-success-100 text-success-700;
+  }
+
+  .badge-info {
+    @apply badge bg-primary-100 text-primary-700;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700;
+  }
+
+  .btn-secondary {
+    @apply btn bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  .insight-card {
+    @apply card border-l-4;
+  }
+
+  .insight-critical {
+    @apply insight-card border-l-danger-500 bg-danger-50;
+  }
+
+  .insight-warning {
+    @apply insight-card border-l-warning-500 bg-warning-50;
+  }
+
+  .insight-success {
+    @apply insight-card border-l-success-500 bg-success-50;
+  }
+}

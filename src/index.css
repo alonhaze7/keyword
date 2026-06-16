@@ -22,19 +22,19 @@
   }
 
   .badge-danger {
-    @apply badge bg-danger-100 text-danger-700;
+    @apply badge bg-red-100 text-red-700;
   }
 
   .badge-warning {
-    @apply badge bg-warning-100 text-warning-700;
+    @apply badge bg-orange-100 text-orange-700;
   }
 
   .badge-success {
-    @apply badge bg-success-100 text-success-700;
+    @apply badge bg-green-100 text-green-700;
   }
 
   .badge-info {
-    @apply badge bg-primary-100 text-primary-700;
+    @apply badge bg-blue-100 text-blue-700;
   }
 
   .btn {
@@ -42,7 +42,7 @@
   }
 
   .btn-primary {
-    @apply btn bg-primary-600 text-white hover:bg-primary-700;
+    @apply btn bg-blue-600 text-white hover:bg-blue-700;
   }
 
   .btn-secondary {
@@ -54,14 +54,14 @@
   }
 
   .insight-critical {
-    @apply insight-card border-l-danger-500 bg-danger-50;
+    @apply insight-card border-l-red-500 bg-red-50;
   }
 
   .insight-warning {
-    @apply insight-card border-l-warning-500 bg-warning-50;
+    @apply insight-card border-l-orange-500 bg-orange-50;
   }
 
   .insight-success {
-    @apply insight-card border-l-success-500 bg-success-50;
+    @apply insight-card border-l-green-500 bg-green-50;
   }
 }
